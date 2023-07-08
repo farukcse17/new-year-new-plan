@@ -93,9 +93,11 @@ p, li{
     position: relative;
 }
 img.planner-person{
-   position: absolute;
-   top: -200px;
-   left: 40px;
+    position: absolute;
+    top: -193px;
+    left: 49px;
+    border-bottom-right-radius: 41%;
+    border-bottom-left-radius: 37%;
 }
 
 .failure-plan-checklist{
