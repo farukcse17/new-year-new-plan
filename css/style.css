@@ -1,0 +1,252 @@
+ /* Global css */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Common Styles */
+body{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1, h2{
+    color: #151414;
+}
+p, li{
+    color: #444343;
+}
+.btn-orange{
+    border-radius: 5px;
+    background: #F15B22;
+    padding:20px 25px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .5s;
+
+}
+.btn-orange:hover{
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    border: 1px solid #F15B22;
+}
+/* Header Section styles */
+.header-section{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-image: url('../images/new-year-new-plan-header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 100vh;
+    justify-content: center;
+}
+
+.header-container{
+    width: 40%;
+    /* background-color: yellow; */
+    /* padding-top: 100px; */
+    text-align: right;
+    padding-right: 100px;
+}
+.header-title{
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 65px;
+    }
+    .header-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+.btn-contact{}
+
+
+/* Main Section styles */
+.main-section-1{
+    
+}
+
+
+/* Main section-1 styles */
+.failure-checklist-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+.planner{
+    /* margin-top: -100px; */
+}
+.circle{
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    position: relative;
+}
+img.planner-person{
+   position: absolute;
+   top: -200px;
+   left: 40px;
+}
+
+.failure-plan-checklist{
+    width: 400px;
+}
+.section-title{
+    font-size: 40px;
+}
+.failure-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+.failure-list{
+    
+}
+.failure-list li{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Main section-2 styles */
+.main-section-2{}
+.my-plan-container{
+    padding: 100px;
+}
+.my-plan-container h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.my-plan-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.my-plan{}
+.plan-icon{}
+.plan-title{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.plan-sub-title{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/* Main section-3 */
+.main-section-3{
+
+}
+.banner-container{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/call-now-bg.png');
+    /* background-color: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+    vertical-align: center;
+}
+.inner-banner-section{
+    width: 50%;
+    padding-left: 100px;
+}
+.inner-banner-section h2{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+.btn-call-now{
+    background-color: white;
+    color: #F15B22;
+
+}
+.btn-call-now:hover{
+    background-color:  #F15B22;
+    color: #fff;
+    border: 1px solid gray;
+
+}
+
+/* footer section styles */
+.footer-section{
+    background: black;
+    color: white;
+    margin-top: 100px;
+}
+.footer-container{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.footer-left{
+    width: 50%;
+}
+.footer-left h2{
+    color: #fff;
+}
+.footer-left> p{
+    color: #FFF;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.address-info p{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.social-link{
+    padding-top: 20px;
+}
+.social-link img{}
+
+h3.subscribe-title{
+font-size: 25px;
+padding-bottom: 20px;
+}
+.contact-form{ 
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input{
+    width: 320px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: #151414;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: #F3F3F3;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.btn-subscribe{
+   width: 170px;
+   background-color: white;
+   color: #F15B22;
+}
